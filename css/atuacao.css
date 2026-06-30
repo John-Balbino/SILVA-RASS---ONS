@@ -1,0 +1,14 @@
+.box-cards-area{
+    
+    display: grid;
+    grid-template-columns: repeat(2,0fr);
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+.area-content{
+    padding:22px;
+}
+.fa-person-booth{
+    transform: scale(1.5);
+}

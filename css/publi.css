@@ -1,0 +1,36 @@
+.publicacoes{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    padding: 20px;
+    height: 500px;
+
+}
+.box-noticia{
+    display:grid;
+    grid-template-columns: repeat(2,0fr);
+    gap: 20px;
+    justify-content: center;
+    
+}
+.noticia{
+    width: 400px;
+    height: 200px;
+    
+    border:1px solid black;
+    border-radius:4px;
+
+   
+    
+}
+.noticia-content{
+     display: flex;
+     flex-direction:column;
+     gap:20px;
+     padding: 10px;
+     justify-content: center;
+     align-items: center;
+}
+.noticia-content{
+    font-size: 12px;
+}

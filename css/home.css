@@ -1,0 +1,54 @@
+main section .home{
+    width: 800px;
+}
+section h2{
+    background: linear-gradient(to right, rgb(86, 42, 0),rgb(255, 136, 0),rgb(255,162,70));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+.home{
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+}
+.home p{
+    width: 400px;
+}
+.box-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box-perfil img{
+    width: 400px;
+    height:400px;
+    display: none;
+
+    
+}
+.box-perfil img.ativo{
+    display: block;
+    animation: aparecer 1s ease-in-out;
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.switch{
+    background:var(--cor-principal);
+    border-radius:100%;
+
+    width: 20px;
+    height:20px;
+}
