@@ -52,17 +52,10 @@
 }
 .button:hover::after{
     width: 100%;
+   
 }
-/*
-.button:hover{
-    background-color: rgb(241, 136, 0);
-    color:white;
-    transform: translateY(-3px);
-    transition: 0.8s ease-in-out;
 
-    box-shadow: 5px 5px 10px 0px rgb(77, 77, 77);
-  
-}*/
+
 .active:hover{
     transform: translateY(-2px);
     transition: 0.8s ease-in-out;

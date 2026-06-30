@@ -12,7 +12,14 @@ section h2{
     padding: 20px;
     display: flex;
     justify-content:space-between;
+   
     gap: 20px;
+    height: 600px;
+}
+.home-content{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .home p{
     width: 400px;
@@ -20,7 +27,7 @@ section h2{
 .box-perfil{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+   
     align-items: center;
     gap: 10px;
 }

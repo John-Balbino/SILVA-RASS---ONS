@@ -114,15 +114,12 @@ nav ul {
     font-size: 24px;
     color: var(--cor-principal);
   }
-  .button:hover {
-    background: #ffffff;
-    transition: 0.8s ease-in-out;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  
   }
   .button:hover::after{
     width:0;
   }
-}
+
 
 .logo-nome {
   display: flex;
